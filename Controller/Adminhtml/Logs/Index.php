@@ -13,7 +13,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Index extends Action
 {
- const ADMIN_RESOURCE = 'ibamara_LogViewer::logviewer';
+ const ADMIN_RESOURCE = 'Ibamara_LogViewer::logviewer';
 
  protected $resultPageFactory;
 
