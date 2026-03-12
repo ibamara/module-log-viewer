@@ -9,7 +9,7 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'ibamara_LogViewer',
+    'Ibamara_LogViewer',
     __DIR__
 );
 
