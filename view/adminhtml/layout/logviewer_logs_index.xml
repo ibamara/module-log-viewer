@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="ibamara\LogViewer\Block\Adminhtml\Logs\View" name="logviewer.logs" template="ibamara_LogViewer::logs/index.phtml"/>
+            <block class="Ibamara\LogViewer\Block\Adminhtml\Logs\View" name="logviewer.logs" template="Ibamara_LogViewer::logs/index.phtml"/>
         </referenceContainer>
     </body>
 </page>
