@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="logviewer" frontName="logviewer">
-            <module name="ibamara_LogViewer"/>
+            <module name="Ibamara_LogViewer"/>
         </route>
     </router>
 </config>
