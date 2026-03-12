@@ -4,7 +4,7 @@
  * @author: ibamara
  */
 
-namespace ibamara\LogViewer\Controller\Adminhtml\Logs;
+namespace Ibamara\LogViewer\Controller\Adminhtml\Logs;
 
 
 use Magento\Backend\App\Action;
