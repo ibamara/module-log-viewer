@@ -31,7 +31,7 @@ However, there are many real-world cases where access to such tools is limited, 
 ### Via Composer
 
 ```
-composer require ibamara/module-log-viewer:dev-main
+composer require ibamara/module-log-viewer
 php bin/magento module:enable ibamara_LogViewer
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
@@ -108,23 +108,7 @@ Scenario: Monitoring critical operation during deployment
 2. Set refresh to 15 seconds
 3. Enable Auto Refresh
 4. Monitor for any unexpected errors
-```
 
-## Comparison with Enterprise Solutions
-
-| Feature | Log Viewer | New Relic | Datadog | Splunk | ELK Stack |
-|---------|------------|-----------|---------|--------|-----------|
-| Real-time Monitoring | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Historical Analysis | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Alerting | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Log Aggregation | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Custom Dashboards | ❌ | ✅ | ✅ | ✅ | ✅ |
-| APM Integration | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Cost | Free | $$$ | $$$ | $$$$ | $$ |
-| Setup Complexity | Low | Medium | Medium | High | High |
-| Admin Panel Access | ✅ | ❌ | ❌ | ❌ | ❌ |
-| No External Dependency | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Immediate Availability | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 ## Requirements
 
@@ -146,9 +130,4 @@ Scenario: Monitoring critical operation during deployment
 **ibamara**
 - Module: ibamara/module-log-viewer
 - Version: 1.0.0
-
-## Acknowledgments
---
-
-This module is designed for convenience and immediate access, not as a replacement for proper enterprise monitoring solutions. For production environments, always maintain comprehensive logging infrastructure with tools like New Relic, Datadog, or ELK Stack, and use this module as a supplementary debugging tool.
 
