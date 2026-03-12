@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="ibamara_LogViewer::logs"
+        <add id="Ibamara_LogViewer::logs"
              title="Logs"
              translate="title"
-             module="ibamara_LogViewer"
+             module="Ibamara_LogViewer"
              sortOrder="100"
              parent="Magento_Backend::system"
-             resource="ibamara_LogViewer::logs"/>
+             resource="Ibamara_LogViewer::logs"/>
 
-        <add id="ibamara_LogViewer::logviewer"
+        <add id="Ibamara_LogViewer::logviewer"
              title="Log Viewer"
              translate="title"
-             module="ibamara_LogViewer"
+             module="Ibamara_LogViewer"
              sortOrder="10"
-             parent="ibamara_LogViewer::logs"
+             parent="Ibamara_LogViewer::logs"
              action="logviewer/logs/index"
-             resource="ibamara_LogViewer::logviewer"/>
+             resource="Ibamara_LogViewer::logviewer"/>
     </menu>
 </config>
