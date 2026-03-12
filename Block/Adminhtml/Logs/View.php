@@ -7,7 +7,7 @@
  * Time: 10:11
  */
 
-namespace ibamara\LogViewer\Block\Adminhtml\Logs;
+namespace Ibamara\LogViewer\Block\Adminhtml\Logs;
 
 use Magento\Backend\Block\Template;
 use Magento\Framework\Filesystem;
