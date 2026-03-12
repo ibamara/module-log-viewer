@@ -13,7 +13,7 @@ use Magento\Framework\Filesystem\DirectoryList;
 
 class Fetch extends Action
 {
-    const ADMIN_RESOURCE = 'ibamara_LogViewer::logviewer';
+    const ADMIN_RESOURCE = 'Ibamara_LogViewer::logviewer';
 
     protected $jsonFactory;
     protected $directoryLinks;
