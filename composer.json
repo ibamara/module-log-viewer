@@ -12,7 +12,7 @@
         "registration.php"
     ],
     "psr-4": {
-      "ibamara\\LogViewer\\": ""
+      "Ibamara\\LogViewer\\": ""
     }
   }
 }
