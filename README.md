@@ -1,7 +1,7 @@
 # Magento 2 Log Viewer
 
 [![Magento 2](https://img.shields.io/badge/Magento-2.4.x-orange.svg)](https://magento.com/)
-[![PHP](https://img.shields.io/badge/PHP-8.1%20%7C%208.2%20%7C%208.3-blue.svg)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.1%20%7C%208.2%20%7C%208.3%20%7C%208.4-blue.svg)](https://php.net/)
 
 
 Real-time log monitoring and analysis tool for Magento 2 admin panel.
